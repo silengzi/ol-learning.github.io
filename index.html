@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+
+    <link rel="stylesheet" href="https://openlayers.org/theme/site.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-core.min.js" integrity="sha512-9khQRAUBYEJDCDVP2yw3LRUQvjJ0Pjx0EShmaQjcHa6AXiOv6qHQu9lCAIR8O+/D8FtaCoJ2c0Tf9Xo7hYH01Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-fTl/qcO1VgvKtOMApX2PdZzkziyr2stM65GYPLGuYMnuMm1z2JLJG6XVU7C/mR+E7xBUqCivykuhlzfqxXBXbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/toolbar/prism-toolbar.min.js" integrity="sha512-st608h+ZqzliahyzEpETxzU0f7z7a9acN6AFvYmHvpFhmcFuKT8a22TT5TpKpjDa3pt3Wv7Z3SdQBCBdDPhyWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js" integrity="sha512-/kVH1uXuObC0iYgxxCKY41JdWOkKOxorFVmip+YVifKsJ4Au/87EisD1wty7vxN2kAhnWh6Yc8o/dSAXj6Oz7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="./src/assets/css/public.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/8.1.0/ol.min.css" integrity="sha512-m1KzXSAktfv5h68DmZQoSyYh/GDrNeblGi7wFHwoQV0Hyg8vHlo5yh+D7HnGtFYYYc4dzltbPC3WqIv303WulQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/8.1.0/dist/ol.min.js" integrity="sha512-Lu3mKY4gbgocyIAil/7VhNwTSQuvpcLwDyaNz2yhCymG1GiV98pcRsfePdAK7EarOsKHtEMYjhrAt4brBu3HuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      // 转换html代码块中的特殊字符，防止被浏览器编译
+      function replaceStr(strHTML) {
+          var strTem = "";
+          if (strHTML.length == 0) return "";
+          strTem = strHTML.replace(/&/g, "&amp;");
+          strTem = strTem.replace(/</g, "&lt;");
+          strTem = strTem.replace(/>/g, "&gt;");
+          strTem = strTem.replace(/ /g, "&nbsp;");
+          strTem = strTem.replace(/'/g, "&#39;");
+          strTem = strTem.replace(/"/g, "&quot;");
+          return strTem;
+      }
+      window.replaceStr = replaceStr
+    </script>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-md navbar-dark mb-3 px-3 py-0 fixed-top" role="navigation">
+      <a class="navbar-brand" href="/"><img src="/src/assets/images/logo-dark.svg" width="70" height="70" alt="">&nbsp;OpenLayers</a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#olmenu" aria-controls="olmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <!-- menu items that get hidden below 768px width -->
+      <nav class="collapse navbar-collapse" id="olmenu">
+        <ul class="nav navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="docdropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" id="examples-page">Examples</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="apidropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-sitemap me-1"></i>API
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="codedropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Code</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="app"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
