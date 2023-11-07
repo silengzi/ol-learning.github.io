@@ -1,0 +1,1227 @@
+[
+  {
+    "title": "Accessible Map",
+    "file": "accessible",
+    "description": "Example of an accessible map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Mapbox vector tiles map with custom tile grid."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This example demonstrates how a map's view can be adjusted so a geometry or coordinate is positioned at a specific pixel location."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using an animated GIF as an icon."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using an ArcGIS REST Feature Service with a Tile strategy."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a attributions visibily change on map resize, to collapse them on small maps."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Choosing bands and applying contrast stretch"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Bing Maps layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using a DragBox interaction to select features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Renders tiles with coordinates for debugging."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a cartodb map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Updating the style of a WebGL tile layer"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a COG as a tiled layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a COG as a tiled layer from a Blob."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using ol/source/Cluster."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a COG over another layer in a different projection."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates color manipulation with a raster source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a view with a constrained extent."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a zoom constrained view."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates how to animate features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Renders tiles with TMS coordinates for debugging."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a custom circle render."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Shows how to create custom controls."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the drag-and-drop interaction with a custom format to handle KMZ files."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the drag-and-drop interaction with a custom format to preview MVT tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a custom hit detection renderer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a custom interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a custom element with a map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of OverviewMap control with advanced customization."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Showing the vertices of a polygon with a custom style geometry."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using custom coordinate transform functions."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This example shows how to customize the buttons tooltips with Bootstrap."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using OpenLayers and d3 together."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Generating tile data from scratch."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Declutter vector layers by groups"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Listen to DeviceOrientation events."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "A single interaction to zoom in/out by double clicking and dragging."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the drag-and-drop interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the drag-and-drop interaction with image vector rendering."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "A single interaction to drag, rotate, and zoom."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the ol/interaction/Draw interaction together with the ol/interaction/Modify interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using Draw and Modify interactions for geodesic circles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the ol/interaction/Draw interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example showing how stroke styling options are represented with the WebGL renderer"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using the ol/interaction/Draw to create regular shapes"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the ol/interaction/Draw interaction with drawing style configured."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Clusters with zoom-to-cluster, hull view, and uncluttering of overlapping features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of dynamic data."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates the use of style geometries to render source features of a cluster."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates the use of a heatmap layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates the use of a Shape symbolizer to render earthquake locations."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates the use of `toContext` to create custom icon symbols."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using an ArcGIS REST Feature Service in an editing application."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a map in EPSG:4326."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of exporting a map as a PDF."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using an Extent interaction to draw an extent."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Move a map to a separate window."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using WebGL to filter large quantities of features"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates how to animate flights with ´postrender´."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a fractal."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using the ol/interaction/Draw interaction in freehand mode."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a full screen control."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a full screen control with a source option definition."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of drag rotate and zoom control with full screen effect."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a full screen map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using geographic coordinates for the map view."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Editing geometries with geographic coordinates."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of GeoJSON features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Slice GeoJSON into vector tiles on the fly in the browser."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using geolocation to control a map view."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a geolocated and oriented map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "GeoTIFF Reprojection"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a COG tile pyramid as layer group."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a GeoTIFF with external overviews as a layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the GPX source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a WMTS based HiDPI layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using the hitTolerance parameter."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of scaling icons and labels."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example assigning a custom color to an icon"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using a Modify interaction to edit an icon."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Canvas pixel operations on a point icon."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering many icons with WebGL"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using an icon to symbolize a point."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using the width and height properties of an icon."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of tracks recorded from multiple paraglider flights on the same day, read from an IGC file."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates displaying IGN (France) WMTS layers."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a IIIF Image API source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of an image ArcGIS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Apply a filter to imagery"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using image load events."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates client-side reprojection of single image source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using the immediate rendering API with geometries in geographic coordinates."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of data interpolation"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example on how to use JSTS with OpenLayers."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering KML with a vector source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Layer clipping example"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a map with layer group."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Show/hide layers depending on current view resolution."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Adjust layer opacity based on user input"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "View a portion of one layer over another"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Layer swipe map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Cropping a WebGL tile layer"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of ordering layers using Z-index."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using minZoom and maxZoom to control layer visibility."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of setting a layer source after construction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Restricting layer rendering to a limited extent."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of drawing arrows for each line string segment."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using load events to show a loading spinner."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a localized OpenStreetMap map with a custom tile server and a custom attribution."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Show a magnified version of imager under the pointer"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of exporting a map as a PNG image."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This example shows how to add a graticule layer to a map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Synchronizing map state with the URL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a layer with a Mapbox-hosted style."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Mapbox vector tiles map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Mapbox-gl-js layer integration."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a untiled MapGuide map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates how to move a feature along a line."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using a draw interaction to measure lengths and areas."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of measuring lengths and areas using vector styles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Editing features with the modify interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example for testing feature modification."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a mouse position control, outside the map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Use of the moveend event."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Displaying two Sentinel 2 COGs with different projections"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Shows how to add navigation controls."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Calculating NDVI and applying a custom color map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "NDVI from a COG with a dynamic color ramp"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Calculating NDVI+NDWI as green and blue values."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering map tiles from an OGC API – Tiles service."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering map tiles from an OGC API – Tiles service."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering vector tiles from an OGC API – Tiles service."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates client-side reprojection of OpenStreetMap in WGS84."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates client-side reprojection of OpenStreetMap to NAD83 Indiana East."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using OpenStreetMap vector tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the OSM XML source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates overlays."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of OverviewMap control."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Shows a map that does not interrupt page scrolling."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Shows a map that allows page scrolling unless two fingers or Cmd/Ctrl are used to pan the map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example on how to create permalinks."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Restrict pinch zooming to integer zoom levels."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Elevation data from PMTiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Uses an overlay to create a popup."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of tile preloading."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of printing a map to a specified scale."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of maintaining scale when changing projection."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates client-side raster reprojection between various projections."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates pixelwise operations with a raster source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Grow a region from a seed pixel"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of some Regular Shape styles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of rendering geometries to an arbitrary canvas."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Renders a multi-byte depth source image directly using WebGL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates client-side raster reprojection of OSM to arbitrary projection"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Updating a tile source by changing the URL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rich text labels."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the Modify interaction to scale and rotate geometries."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a scale line."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Render sea level at different elevations"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Render sea level at different elevations"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the Select interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of selecting features by hovering."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of selecting multiple features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a map with a semi-transparent layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Calculate shaded relief from elevation data"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Calculate shaded relief from elevation data"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Two maps share view properties"
+  },
+  {
+    "title": "Simple Map",
+    "file": "simple",
+    "description": "Example of a simple map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a single image WMS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of integrating Proj4js for coordinate transforms."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This uses Chaikins algorithm to smooth drawn lines."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the snap interaction together with draw and modify interactions."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Sphere Mollweide map with a Graticule layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering a STAC Item with geometry and COG."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of retina/HiDPI layers with a Stadia Maps tile source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of composing layers with a Stadia Maps tile source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a static image layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Render street names."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates rule based styling."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a style with a custom renderer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example showing a vector layer styled with a gradient."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a map with an interactive svg layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Synthetic lines example."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Synthetic points example."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of moving a map from one target to another."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example using tile load events."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Custom configuration for opacity transitions on tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a tiled ArcGIS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a tiled WMS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a tiled WMS layer that wraps across the 180° meridian."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a TileJSON layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates rendering timezones from KML."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Draw Tissot's indicatrices on maps."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates rendering of features from a TopoJSON topology."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example on how to use topolis with OpenLayers."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using the draw interaction to trace around features."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a translate features interaction."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example on how to use turf.js with OpenLayers."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This example shows how to read data from a UTFGrid source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Vector Clipping Layer example"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of rendering vector data as an image layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Label decluttering on polygons."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of GeoJSON features with labels."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of text justification within a label."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a countries vector layer with country information."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of hit detection on an ecoregions vector layer with protection status."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Getting feature information from vector tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Select features from vector tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using ol-mapbox-style with tiles from maptiler.com."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example showing vector tiles in EPSG:4326 (styled using ol-mapbox-style)"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a map that delegates rendering to a worker."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates animated pan, zoom, and rotation."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Demonstrates how the view's minimum zoom level can be changed."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "This example demonstrates the use of the view's padding option."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a rotated map."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using a WebGL-optimized layer to render a large quantities of points"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Styling raster tiles with WebGL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Rendering raster data with WebGL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a vector layer rendered using WebGL"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a vector tiles map rendered using WebGL."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using WFS with a BBOX strategy."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of making a WFS GetFeature request with a filter."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using WFS with a Tile strategy."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of Wind Arrows styled using Regular Shapes."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the WKB parser."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of using the WKT parser."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a WMS layer with a custom grid with 512x256px tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of parsing a WMS GetCapabilities response."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using an image WMS source with GetFeatureInfo requests"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Shows how to fetch features per layer name in a single WMS GetFeatureInfo request"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Issuing GetFeatureInfo requests with a WMS tiled source"
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a WMS GetLegendGraphic."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Using the WMS loader to use SVG images with an Image source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of smooth tile transitions when changing the time dimension of a tiled WMS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of two WMS layers using the projection EPSG:21781, which is unknown to the client."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a WMTS source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of parsing a WMTS GetCapabilities response."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a WMTS source created from a WMTS capabilities document."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of smooth tile transitions when changing the dimension of a WMTS layer."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a XYZ source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a XYZ source using Esri tiles."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of Retina / HiDPI mercator tiles (512x512px) available as XYZ."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of various ZoomSlider controls."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": "Example of a Zoomify source."
+  },
+  {
+    "title": "Accessible",
+    "file": "accessible",
+    "description": ""
+  }
+]
