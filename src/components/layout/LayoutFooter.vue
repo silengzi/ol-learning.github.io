@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import request from '@/network/request.js'  // 网络请求相关
+// import request from '@/network/request.js'  // 网络请求相关
 
 export default {
   name: 'layout_header',
@@ -61,14 +61,14 @@ export default {
     }, 1000)
 
     // 获取访客人数
-    request({
-      url: 'vnum',
-    }).then((res) => {
-      let number = res.data.data
-      this.number = number
-    }).catch((err) => {
-      console.log(err);
-    })
+    // request({
+    //   url: 'vnum',
+    // }).then((res) => {
+    //   let number = res.data.data
+    //   this.number = number
+    // }).catch((err) => {
+    //   console.log(err);
+    // })
   }
 }
 </script>

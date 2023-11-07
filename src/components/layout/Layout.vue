@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import LayoutHeader from "@/components/layout/LayoutHeader"; // 页头
-import LayoutFooter from "@/components/layout/LayoutFooter"; // 页尾
-import BackToTop from "@/components/tools/BackToTop"; // 回到顶部
+import LayoutHeader from "@/components/layout/LayoutHeader.vue"; // 页头
+import LayoutFooter from "@/components/layout/LayoutFooter.vue"; // 页尾
+import BackToTop from "@/components/tools/BackToTop.vue"; // 回到顶部
 
 export default {
   name: "layout",

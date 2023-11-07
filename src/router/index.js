@@ -1,5 +1,7 @@
 import { createRouter,createWebHashHistory } from "vue-router";
-const Layout = () => import('@/components/layout/Layout.vue')
+// const Layout = () => import('@/components/layout/Layout.vue')
+// const Layout = () => import('@/components/layout')
+import Layout from '@/components/layout/Layout.vue'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Ol from '../views/Ol.vue'
