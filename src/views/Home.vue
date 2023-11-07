@@ -1,9 +1,8 @@
 <script setup>
-import HelloWorld from '../components/HelloWorld.vue';
 </script>
 
 <template>
-  <HelloWorld></HelloWorld>
+  首页
 </template>
 
 <style scoped>

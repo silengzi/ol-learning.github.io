@@ -1,78 +1,38 @@
 <template>
-<!-- 页头 navbar -->
-  <div id="layout_header">
-    <div class="cube-header_left">
-      <div class="logo">logo</div>
-      <div class="name">Cube</div>
-      <div class="search-wrap">
-        <input type="text">
-      </div>
-    </div>
-    <div class="cube-header_right">
-      <div class="navbar-item"><router-link to="/article">文章</router-link></div>
-      <div class="navbar-item"><router-link to="/about">关于我</router-link></div>
-      <div class="navbar-item"><span>开关</span></div>
-    </div>
-  </div>
+    <header class="navbar navbar-expand-md navbar-dark mb-3 px-3 py-0 fixed-top" role="navigation">
+      <a class="navbar-brand" href="/"><img src="/src/assets/images/logo-dark.svg" width="70" height="70" alt="">&nbsp;OpenLayers</a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#olmenu" aria-controls="olmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+
+      <!-- menu items that get hidden below 768px width -->
+      <nav class="collapse navbar-collapse" id="olmenu">
+        <ul class="nav navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="docdropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" id="examples-page" to="/example">Examples</router-link>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="apidropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-sitemap me-1"></i>API
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="codedropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Code</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 </template>
 
 <script>
 export default {
-  name: "layout_header",
+  name: "LayoutHeader",
 };
 </script>
 
 <style scoped lang="less">
-#layout_header {
-  height: 70px;
-  display: flex;
-  
-  >div {
-    height: 100%;
-    flex: 1;
-    display: flex;
-  }
-  .cube-header_left {
-    display: flex;
-    .logo {
-      flex: 2;
-      display: flex;
-      align-items: center;
-      justify-content: right;
-      img {
-        border-radius: 50%;
-        height: 40px;
-        width: 40px;
-        cursor: pointer;
-      }
-    }
-    .name {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.2em;
-      cursor: pointer;
-    }
-    .search-wrap {
-      flex: 12;
-      display: flex;
-      align-items: center;
-    }
-  }
-  .cube-header_right {
-    padding-right: 50px;
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    .navbar-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      span {
-        cursor: pointer;
-      }
-    }
-  }
-}
+
 </style>

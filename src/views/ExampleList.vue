@@ -1,8 +1,9 @@
 <script setup>
+
 </script>
 
 <template>
-  <h4>This is page About.</h4>
+  这是示例列表页面，展示所有示例
 </template>
 
 <style scoped>

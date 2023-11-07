@@ -1,13 +1,14 @@
 import { defineAsyncComponent } from "vue";
-import { createRouter,createWebHashHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
+import examplesRoutes from "./example-routes"
+
 const Layout = defineAsyncComponent(() => import('@/components/layout/Layout.vue'))
 const Home = defineAsyncComponent(() => import('@/views/Home.vue'))
-const About = defineAsyncComponent(() => import('@/views/About.vue'))
-const Ol = defineAsyncComponent(() => import('@/views/Ol.vue'))
+const ExampleList = defineAsyncComponent(() => import('@/views/ExampleList.vue'))
 
 const routes = [
   {
-    path:'/',
+    path: '/',
     component: Layout,  // 网站的整体布局
     children: [
       {
@@ -15,24 +16,25 @@ const routes = [
         redirect: '/home',   // 重定向至首页
       },
       {
-        path:'home',
-        name:Home,
-        component:Home
+        path: 'home',
+        name: "Home",
+        component: Home
       },
       {
-        path:'about',
-        component:About
+        path: 'example',
+        name: 'ExampleList',
+        component: ExampleList
       },
       {
-        path:'ol',
-        component:Ol
+        path: 'examples',
+        children: examplesRoutes  // 
       }
     ]
   }
 ]
 
 const router = createRouter({
-  history:createWebHashHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
