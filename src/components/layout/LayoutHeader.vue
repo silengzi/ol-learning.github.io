@@ -1,6 +1,6 @@
 <template>
     <header class="navbar navbar-expand-md navbar-dark mb-3 px-3 py-0 fixed-top" role="navigation">
-      <a class="navbar-brand" href="/"><img src="/src/assets/images/logo-dark.svg" width="70" height="70" alt="">&nbsp;OpenLayers</a>
+      <router-link class="navbar-brand" to="/home"><img src="/src/assets/images/logo-dark.svg" width="70" height="70" alt="">&nbsp;OpenLayers</router-link>
       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#olmenu" aria-controls="olmenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
