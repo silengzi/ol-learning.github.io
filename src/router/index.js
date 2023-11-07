@@ -1,10 +1,9 @@
+import { defineAsyncComponent } from "vue";
 import { createRouter,createWebHashHistory } from "vue-router";
-// const Layout = () => import('@/components/layout/Layout.vue')
-// const Layout = () => import('@/components/layout')
-import Layout from '@/components/layout/Layout.vue'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Ol from '../views/Ol.vue'
+const Layout = defineAsyncComponent(() => import('@/components/layout/Layout.vue'))
+const Home = defineAsyncComponent(() => import('@/views/Home.vue'))
+const About = defineAsyncComponent(() => import('@/views/About.vue'))
+const Ol = defineAsyncComponent(() => import('@/views/Ol.vue'))
 
 const routes = [
   {

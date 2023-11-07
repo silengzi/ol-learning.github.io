@@ -2,7 +2,7 @@
 <!-- 页头 navbar -->
   <div id="layout_header">
     <div class="cube-header_left">
-      <div class="logo"><img src="/logo.png" alt="logo"></div>
+      <div class="logo">logo</div>
       <div class="name">Cube</div>
       <div class="search-wrap">
         <input type="text">
