@@ -32,7 +32,9 @@ export default {
 
 <style scoped lang="less">
 #layout {
+  width: 100%;
   main {
+    width: 100%;
     min-height: calc(100vh - var(--header_height) - var(--footer_height));
   }
 }

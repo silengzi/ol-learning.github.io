@@ -3,7 +3,7 @@ const AccessibleMap = defineAsyncComponent(() => import('@/views/examples/Access
 
 const routes = [
   {
-    path: 'accessiblemap',
+    path: 'accessible-map',
     name: 'AccessibleMap',
     component: AccessibleMap
   },

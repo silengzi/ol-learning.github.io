@@ -1,5 +1,5 @@
 import { defineAsyncComponent } from "vue";
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import examplesRoutes from "./example-routes"
 
 const Layout = defineAsyncComponent(() => import('@/components/layout/Layout.vue'))
@@ -34,7 +34,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
