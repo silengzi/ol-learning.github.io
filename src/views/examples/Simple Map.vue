@@ -1,10 +1,7 @@
 <template>
   <h4 id="title">{{title}}</h4>
   
-  <a class="skiplink" href="#map">Go to map</a>
-  <div id="map" class="map" tabindex="0"></div>
-  <button id="zoom-out">Zoom out</button>
-  <button id="zoom-in">Zoom in</button>
+  <div id="map" class="map"></div>
 
   <p>该页的map元素的tabindex属性设置为“0”，这使得它可以聚焦。要聚焦到该元素，您可以使用“tab”键导航到它，也可以点击跳转链接。当地图元素处于聚焦状态时，您可以使用键盘的+和-键来对地图进行放大和缩小，以及可以使用键盘方向键来平移地图。</p>
   <p>点击地图下方的“放大”和“缩小”按钮可以放大和缩小地图。您可以使用“tab”键聚焦到按钮上，然后键盘按下回车“enter”键来触发缩放操作。</p>
@@ -28,6 +25,7 @@ import TileLayer from 'ol/layer/Tile.js';
 import View from 'ol/View.js';
 
 onMounted(() => {
+
   const map = new Map({
     layers: [
       new TileLayer({
@@ -41,54 +39,20 @@ onMounted(() => {
     }),
   });
 
-  document.getElementById('zoom-out').onclick = function () {
-    const view = map.getView();
-    const zoom = view.getZoom();
-    view.setZoom(zoom - 1);
-  };
-
-  document.getElementById('zoom-in').onclick = function () {
-    const view = map.getView();
-    const zoom = view.getZoom();
-    view.setZoom(zoom + 1);
-  };
-
   // 代码快高亮
   Prism.highlightAll();
 });
 
-const title = 'Accessible Map'
+const title = 'Simple Map'
 
 const html_str = `
-  <a class="skiplink" href="#map">Go to map</a>
-  <div id="map" class="map" tabindex="0"></div>
-  <button id="zoom-out">Zoom out</button>
-  <button id="zoom-in">Zoom in</button>
+  <div id="map" class="map"></div>
 `
 
 const css_str = `
   .map {
     width: 100%;
     height: 400px;
-  }
-  a.skiplink {
-    position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
-    padding: 0;
-    border: 0;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-  }
-  a.skiplink:focus {
-    clip: auto;
-    height: auto;
-    width: auto;
-    background-color: #fff;
-    padding: 0.3em;
-  }
-  #map:focus {
-    outline: #4A74A8 solid 0.15em;
   }
 `
 
@@ -110,23 +74,11 @@ const js_str = `
       zoom: 2,
     }),
   });
-
-  document.getElementById('zoom-out').onclick = function () {
-    const view = map.getView();
-    const zoom = view.getZoom();
-    view.setZoom(zoom - 1);
-  };
-
-  document.getElementById('zoom-in').onclick = function () {
-    const view = map.getView();
-    const zoom = view.getZoom();
-    view.setZoom(zoom + 1);
-  };
 `
 
 const package_str = `
   {
-    "name": "accessible",
+    "name": "simple",
     "dependencies": {
       "ol": "8.1.0"
     },
@@ -146,24 +98,5 @@ const package_str = `
 .map {
   width: 100%;
   height: 400px;
-}
-/* a.skiplink {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-} */
-a.skiplink:focus {
-  clip: auto;
-  height: auto;
-  width: auto;
-  background-color: #fff;
-  padding: 0.3em;
-}
-#map:focus {
-  outline: #4A74A8 solid 0.15em;
 }
 </style>
