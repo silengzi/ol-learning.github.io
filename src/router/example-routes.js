@@ -1,6 +1,6 @@
 import { defineAsyncComponent } from "vue";
-const AccessibleMap = defineAsyncComponent(() => import('@/views/examples/Accessible Map.vue'))
-const SimpleMap = defineAsyncComponent(() => import('@/views/examples/Simple Map.vue'))
+const AccessibleMap = defineAsyncComponent(() => import('@/views/examples/Accessible Map/index.vue'))
+const AdvancedMapboxVectorTiles = defineAsyncComponent(() => import('@/views/examples/Advanced Mapbox Vector Tiles/index.vue'))
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: AccessibleMap
   },
   {
-    path: 'simple-map',
-    name: 'SimpleMap',
-    component: SimpleMap
+    path: 'advanced-mapbox-vector-tiles',
+    name: 'AdvancedMapboxVectorTiles',
+    component: AdvancedMapboxVectorTiles
   },
 ]
 
