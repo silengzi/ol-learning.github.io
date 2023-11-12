@@ -84,7 +84,7 @@ onMounted(() => {
     }),
   });
 
-  // 代码快高亮
+  // 代码块高亮
   Prism.highlightAll();
 });
 
