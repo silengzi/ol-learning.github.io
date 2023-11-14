@@ -1,4 +1,4 @@
-import{M as d,V as m}from"./TileLayer-0c9b03f0.js";import{O as l}from"./OSM-e1c6bf4b.js";import{T as p}from"./Tile-f73a4f5e.js";import{_ as r,i as u,o as _,c as g,b as o,t,g as s,F as h,j as f,p as b,k as w}from"./index-767b6842.js";const v="Accessible Map",k=`
+import{M as d,V as m}from"./TileLayer-f9f86bd4.js";import{O as l}from"./OSM-cb70612a.js";import{T as p}from"./Tile-a0d0c745.js";import{_ as r,i as u,o as _,c as g,b as o,t,g as s,F as h,j as f,p as b,k as w}from"./index-4acf93cb.js";const v="Accessible Map",k=`
   <a class="skiplink" href="#map">Go to map</a>
   <div id="map" class="map" tabindex="0"></div>
   <button id="zoom-out">Zoom out</button>

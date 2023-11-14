@@ -5,6 +5,7 @@ const AdvancedMapboxVectorTiles = defineAsyncComponent(() => import('@/views/exa
 const AdvancedViewPositioning = defineAsyncComponent(() => import('@/views/examples/Advanced View Positioning/index.vue'))
 const AnimatedGIF = defineAsyncComponent(() => import('@/views/examples/Animated GIF/index.vue'))
 const ArcGISRESTFeatureService = defineAsyncComponent(() => import('@/views/examples/ArcGIS REST Feature Service/index.vue'))
+const Attributions = defineAsyncComponent(() => import('@/views/examples/Attributions/index.vue'))
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: 'ArcGIS-REST-feature-service',
     name: 'ArcGISRESTFeatureService',
     component: ArcGISRESTFeatureService
+  },
+  {
+    path: 'attributions',
+    name: 'Attributions',
+    component: Attributions
   },
 ]
 
