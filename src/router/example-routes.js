@@ -6,6 +6,10 @@ const AdvancedViewPositioning = defineAsyncComponent(() => import('@/views/examp
 const AnimatedGIF = defineAsyncComponent(() => import('@/views/examples/Animated GIF/index.vue'))
 const ArcGISRESTFeatureService = defineAsyncComponent(() => import('@/views/examples/ArcGIS REST Feature Service/index.vue'))
 const Attributions = defineAsyncComponent(() => import('@/views/examples/Attributions/index.vue'))
+const BandContrastStretch = defineAsyncComponent(() => import('@/views/examples/Band Contrast Stretch/index.vue'))
+const BingMaps = defineAsyncComponent(() => import('@/views/examples/Bing Maps/index.vue'))
+const BoxSelection = defineAsyncComponent(() => import('@/views/examples/Box Selection/index.vue'))
+const CanvasTiles = defineAsyncComponent(() => import('@/views/examples/Canvas Tiles/index.vue'))
 
 const routes = [
   {
@@ -37,6 +41,26 @@ const routes = [
     path: 'attributions',
     name: 'Attributions',
     component: Attributions
+  },
+  {
+    path: 'Band-Contrast-Stretch',
+    name: 'BandContrastStretch',
+    component: BandContrastStretch
+  },
+  {
+    path: 'Bing-Maps',
+    name: 'BingMaps',
+    component: BingMaps
+  },
+  {
+    path: 'Box-Selection',
+    name: 'BoxSelection',
+    component: BoxSelection
+  },
+  {
+    path: 'Canvas-Tiles',
+    name: 'CanvasTiles',
+    component: CanvasTiles
   },
 ]
 
