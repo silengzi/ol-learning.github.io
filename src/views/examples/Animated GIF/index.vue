@@ -60,9 +60,16 @@ onMounted(() => {
   });
 
   const gifUrl = 'https://openlayers.org/en/latest/examples/data/globe.gif';
+  //  加载 GIF 图片并使用 gifler 库处理每一帧
+  //  使用 gifler 库加载指定 URL 的 GIF 图片，创建一个可以处理 GIF 的对象 gif
   const gif = gifler(gifUrl);
+  //  处理 GIF 的每一帧
+  //  使用 gif.frames() 方法遍历 GIF 图片的每一帧，并对每一帧执行指定的回调函数。
   gif.frames(
+    //  第一个参数是一个用于绘制的 canvas 元素
     document.createElement('canvas'),
+    //  第二个参数是每一帧的回调函数，用于对每一帧进行处理。
+    //  在这里，回调函数使用 ctx（绘图上下文）和 frame（当前帧的信息）进行操作
     function (ctx, frame) {
       if (!iconFeature.getStyle()) {
         iconFeature.setStyle(
@@ -74,16 +81,21 @@ onMounted(() => {
           })
         );
       }
+      // 清空绘图上下文
       ctx.clearRect(0, 0, frame.width, frame.height);
+      // 将 frame.buffer 绘制到上下文中
       ctx.drawImage(frame.buffer, frame.x, frame.y);
       map.render();
     },
+    //  第三个参数是一个布尔值，表示是否循环播放 GIF。在这里设置为 true，即循环播放。
     true
   );
 
   // change mouse cursor when over icon
   map.on('pointermove', function (e) {
+    //  获取鼠标事件 e 的像素坐标
     const pixel = map.getEventPixel(e.originalEvent);
+    //  判断在鼠标位置是否有地图要素
     const hit = map.hasFeatureAtPixel(pixel);
     map.getTarget().style.cursor = hit ? 'pointer' : '';
   });

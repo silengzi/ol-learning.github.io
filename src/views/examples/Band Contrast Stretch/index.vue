@@ -74,6 +74,7 @@ onMounted(() => {
     const variables = {};
     for (const channel of channels) {
       const selector = document.getElementById(channel);
+      //  值转换为十进制
       variables[channel] = parseInt(selector.value, 10);
 
       const inputId = `${channel}Max`;
@@ -95,6 +96,7 @@ onMounted(() => {
       ],
     },
     source: new GeoTIFF({
+      //  归一化处理
       normalize: false,
       sources: [
         {

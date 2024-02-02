@@ -38,18 +38,31 @@ onMounted(() => {
   const layer = '0';
 
   const fillColors = {
+    //  1965 年以来丧失在海中   黑色
     'Lost To Sea Since 1965': [0, 0, 0, 1],
+    //  城市/建成   灰色
     'Urban/Built-up': [104, 104, 104, 1],
-    'Shacks': [115, 76, 0, 1],
+    //  窝棚    深棕色
+    'Shacks': [115, 76, 0, 0.5],
+    //  工业    红色
     'Industry': [230, 0, 0, 1],
+    //  荒漠    红色
     'Wasteland': [230, 0, 0, 1],
+    //  商队;大篷车;旅行队;商旅   蓝色
     'Caravans': [0, 112, 255, 0.5],
+    //  防御    橙色
     'Defence': [230, 152, 0, 0.5],
+    //  运输    橙色
     'Transport': [230, 152, 0, 1],
+    //  开放的乡村    黄色
     'Open Countryside': [255, 255, 115, 1],
+    //  林地    深绿色
     'Woodland': [38, 115, 0, 1],
+    //  管理娱乐/运动   绿色
     'Managed Recreation/Sport': [85, 255, 0, 1],
+    //  便利用水    蓝色
     'Amenity Water': [0, 112, 255, 1],
+    //  内河    深蓝色
     'Inland Water': [0, 38, 115, 1],
   };
 
@@ -65,6 +78,7 @@ onMounted(() => {
     format: new EsriJSON(),
     url: function (extent, resolution, projection) {
       // ArcGIS Server only wants the numeric portion of the projection ID.
+      //   获取地图投影的标识码，并从中提取出投影的数字部分。
       const srid = projection
         .getCode()
         // .split(/:(?=d+$)/)

@@ -1,4 +1,4 @@
-const title = 'Advanced View Positioning'
+const title = 'Advanced View Positioning(高级视图定位)'
 
 const html_str = `
   <div class="mapcontainer">

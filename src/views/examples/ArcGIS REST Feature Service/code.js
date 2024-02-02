@@ -1,4 +1,4 @@
-const title = 'ArcGIS REST Feature Service'
+const title = 'ArcGIS REST Feature Service(ArcGIS REST 要素服务)'
 
 const html_str = `
   <div id="map" class="map"></div>

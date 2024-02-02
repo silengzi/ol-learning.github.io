@@ -1,4 +1,4 @@
-const title = 'Band Contrast Stretch'
+const title = 'Band Contrast Stretch带对比度拉伸'
 
 const html_str = `
   <div id="map" class="map"></div>
