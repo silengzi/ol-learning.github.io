@@ -1,4 +1,4 @@
-import{G as l,T as c}from"./WebGLTile-70eb1a06.js";import{M as d}from"./Layer-5200258f.js";import{_ as p,i as _,o as m,c as h,b as e,t,g as o,F as u,p as g,k as b}from"./index-f7249d0d.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const f="Cloud Optimized GeoTIFF (COG) from a Blob",F=`
+import{G as l,T as c}from"./WebGLTile-07257468.js";import{M as d}from"./Layer-5200258f.js";import{_ as p,i as _,o as m,c as h,b as e,t,g as o,F as u,p as g,k as b}from"./index-b344a3c5.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const f="Cloud Optimized GeoTIFF (COG) from a Blob",F=`
   <div id="map" class="map"></div>
 `,w=`
   .map {

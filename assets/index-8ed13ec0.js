@@ -1,4 +1,4 @@
-import{M as c,V as p}from"./Layer-5200258f.js";import{T as l}from"./Tile-aca76f7d.js";import{X as m}from"./XYZ-7263712f.js";import{_ as d,i as _,o as h,c as u,b as t,t as o,g as s,F as g,p as w,k as y,d as i}from"./index-f7249d0d.js";import"./BaseTile-53865aab.js";import"./TileProperty-ab86017d.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const b="Constrained Zoom",f=`
+import{M as c,V as p}from"./Layer-5200258f.js";import{T as l}from"./Tile-aca76f7d.js";import{X as m}from"./XYZ-7263712f.js";import{_ as d,i as _,o as h,c as u,b as t,t as o,g as s,F as g,p as w,k as y,d as i}from"./index-b344a3c5.js";import"./BaseTile-53865aab.js";import"./TileProperty-ab86017d.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const b="Constrained Zoom",f=`
   <div id="map" class="map"></div>
 `,v=`
   .map {
