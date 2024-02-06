@@ -45,7 +45,9 @@ onMounted(() => {
   for (i = 0, ii = styles.length; i < ii; ++i) {
     layers.push(
       new TileLayer({
+        //  设置图层初始时不可见
         visible: false,
+        //  指定图层在地图可见区域之外也进行预加载，这可以提高用户在移动或缩放地图时的加载性能
         preload: Infinity,
         source: new BingMaps({
           // key: 'Your Bing Maps Key from https://www.bingmapsportal.com/ here',
