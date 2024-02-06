@@ -24,6 +24,11 @@ const CustomCanvasTiles = defineAsyncComponent(() => import('@/views/examples/Cu
 const CustomCircleRender = defineAsyncComponent(() => import('@/views/examples/Custom Circle Render/index.vue'))
 const CustomControls = defineAsyncComponent(() => import('@/views/examples/Custom Controls/index.vue'))
 const CustomDragAndDropKMZ = defineAsyncComponent(() => import('@/views/examples/Custom Drag-and-Drop (KMZ)/index.vue'))
+const CustomDragAndDropMVTPreview = defineAsyncComponent(() => import('@/views/examples/Custom Drag-and-Drop (MVT preview)/index.vue'))
+const CustomHitDetectionRender = defineAsyncComponent(() => import('@/views/examples/Custom Hit Detection Render/index.vue'))
+const CustomInteractions = defineAsyncComponent(() => import('@/views/examples/Custom Interactions/index.vue'))
+const CustomMapElement = defineAsyncComponent(() => import('@/views/examples/Custom map element/index.vue'))
+const CustomOverviewMap = defineAsyncComponent(() => import('@/views/examples/Custom Overview Map/index.vue'))
 
 const routes = [
   {
@@ -145,6 +150,31 @@ const routes = [
     path: 'Custom-Drag-And-Drop-KMZ',
     name: 'CustomDragAndDropKMZ',
     component: CustomDragAndDropKMZ
+  },
+  {
+    path: 'Custom-Drag-And-Drop-MVT-Preview',
+    name: 'CustomDragAndDropMVTPreview',
+    component: CustomDragAndDropMVTPreview
+  },
+  {
+    path: 'Custom-Hit-Detection-Render',
+    name: 'CustomHitDetectionRender',
+    component: CustomHitDetectionRender
+  },
+  {
+    path: 'Custom-Interactions',
+    name: 'CustomInteractions',
+    component: CustomInteractions
+  },
+  {
+    path: 'Custom-Map-Element',
+    name: 'CustomMapElement',
+    component: CustomMapElement
+  },
+  {
+    path: 'Custom-Overview-Map',
+    name: 'CustomOverviewMap',
+    component: CustomOverviewMap
   },
 ]
 
