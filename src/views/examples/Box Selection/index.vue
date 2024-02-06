@@ -40,6 +40,7 @@ onMounted(() => {
 
   const style = new Style({
     fill: new Fill({
+      //  在这里是不是可以不设置颜色?
       color: '#eeeeee',
     }),
   });
@@ -60,6 +61,7 @@ onMounted(() => {
     view: new View({
       center: [0, 0],
       zoom: 2,
+      //  表示地图的旋转将被限制在 16 的倍数
       constrainRotation: 16,
     }),
   });
@@ -88,20 +90,28 @@ onMounted(() => {
 
   // a DragBox interaction used to select features by drawing boxes
   const dragBox = new DragBox({
+    //  用于指定事件触发条件的一种设置
+    //  platformModifierKeyOnly 表示事件只在同时按下平台相关的修饰键时才触发
+    //  例如在 Windows 上是 Ctrl 键，在 Mac 上是 Command 键
     condition: platformModifierKeyOnly,
   });
 
   map.addInteraction(dragBox);
-
+  
+  //  dragBox 是 OpenLayers 中用于创建拖拽框的交互对象。
+  //  拖拽框 (dragBox) 结束绘制时触发
   dragBox.on('boxend', function () {
+    //  getExtent() 用于获取几何图形对象的范围，返回一个包含四个坐标值的数组，表示左下角和右上角的坐标。
     const boxExtent = dragBox.getGeometry().getExtent();
 
     // if the extent crosses the antimeridian process each world separately
+    //  用于检查绘制的框是否横跨了地图的反子午线。如果是，可能需要分别处理两个半球的情况。
     const worldExtent = map.getView().getProjection().getExtent();
     const worldWidth = getWidth(worldExtent);
     const startWorld = Math.floor((boxExtent[0] - worldExtent[0]) / worldWidth);
     const endWorld = Math.floor((boxExtent[2] - worldExtent[0]) / worldWidth);
 
+    //  遍历横跨的半球，将绘制的框的范围在每个半球上进行处理
     for (let world = startWorld; world <= endWorld; ++world) {
       const left = Math.max(boxExtent[0] - world * worldWidth, worldExtent[0]);
       const right = Math.min(boxExtent[2] - world * worldWidth, worldExtent[2]);
