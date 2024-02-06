@@ -1,4 +1,4 @@
-import{G as Ja,T as aa}from"./WebGLTile-07257468.js";import{g as bt,S as Ka,U as Va,W as Za,X as Ya,Y as ts,Z as sa,M as as}from"./Layer-5200258f.js";import{X as ss}from"./XYZ-7263712f.js";import{_ as is,i as es,o as hs,c as rs,b as q,t as dt,g as mt,F as ns,p as os,k as ls,d as ia}from"./index-b344a3c5.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const fs="COG with Projection Lookup",us=`
+import{G as Ja,T as aa}from"./WebGLTile-51dd7505.js";import{g as bt,S as Ka,U as Va,W as Za,X as Ya,Y as ts,Z as sa,M as as}from"./Layer-5200258f.js";import{X as ss}from"./XYZ-7263712f.js";import{_ as is,i as es,o as hs,c as rs,b as q,t as dt,g as mt,F as ns,p as os,k as ls,d as ia}from"./index-7205b445.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const fs="COG with Projection Lookup",us=`
   <div id="map" class="map"></div>
 `,cs=`
   .map {

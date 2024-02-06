@@ -1,4 +1,4 @@
-import{T as v,G as m}from"./WebGLTile-07257468.js";import{M as f,V as g}from"./Layer-5200258f.js";import{_ as h,i as _,o as x,c as y,b as e,t,g as n,F as I,j as M,p as w,k as E}from"./index-b344a3c5.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const B="Band Contrast Stretch带对比度拉伸",V=`
+import{T as v,G as m}from"./WebGLTile-51dd7505.js";import{M as f,V as g}from"./Layer-5200258f.js";import{_ as h,i as _,o as x,c as y,b as e,t,g as n,F as I,j as M,p as w,k as E}from"./index-7205b445.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const B="Band Contrast Stretch带对比度拉伸",V=`
   <div id="map" class="map"></div>
   <div class="controls">
     <label for="red">Red channel</label>

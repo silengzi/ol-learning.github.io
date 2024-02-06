@@ -1,4 +1,4 @@
-import{M as m,V as d}from"./Layer-5200258f.js";import{O as p}from"./OSM-7231e773.js";import{T as r}from"./Tile-aca76f7d.js";import{_ as l,i as u,o as _,c as g,b as o,t,g as s,F as h,j as f,p as w,k as v}from"./index-b344a3c5.js";import"./XYZ-7263712f.js";import"./TileImage-4a3fae9a.js";import"./TileProperty-ab86017d.js";import"./UrlTile-d31c8ece.js";import"./BaseTile-53865aab.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";const b="Accessible Map",k=`
+import{M as m,V as d}from"./Layer-5200258f.js";import{O as p}from"./OSM-7231e773.js";import{T as r}from"./Tile-aca76f7d.js";import{_ as l,i as u,o as _,c as g,b as o,t,g as s,F as h,j as f,p as w,k as v}from"./index-7205b445.js";import"./XYZ-7263712f.js";import"./TileImage-4a3fae9a.js";import"./TileProperty-ab86017d.js";import"./UrlTile-d31c8ece.js";import"./BaseTile-53865aab.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";const b="Accessible Map",k=`
   <a class="skiplink" href="#map">Go to map</a>
   <div id="map" class="map" tabindex="0"></div>
   <button id="zoom-out">Zoom out</button>

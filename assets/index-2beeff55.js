@@ -1,4 +1,4 @@
-import{M as n,V as r}from"./Layer-5200258f.js";import{T as i}from"./Tile-aca76f7d.js";import{_ as c,i as l,o as p,c as d,b as e,t,g as o,F as _,p as m,k as h}from"./index-b344a3c5.js";import{O as u}from"./OSM-7231e773.js";import{T as g}from"./TileDebug-21fe8d1c.js";import"./BaseTile-53865aab.js";import"./TileProperty-ab86017d.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";import"./XYZ-7263712f.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const w="Canvas Tiles",f=`
+import{M as n,V as r}from"./Layer-5200258f.js";import{T as i}from"./Tile-aca76f7d.js";import{_ as c,i as l,o as p,c as d,b as e,t,g as o,F as _,p as m,k as h}from"./index-7205b445.js";import{O as u}from"./OSM-7231e773.js";import{T as g}from"./TileDebug-21fe8d1c.js";import"./BaseTile-53865aab.js";import"./TileProperty-ab86017d.js";import"./TileLayer-7e43e564.js";import"./Layer-a8143b89.js";import"./XYZ-7263712f.js";import"./TileImage-4a3fae9a.js";import"./UrlTile-d31c8ece.js";const w="Canvas Tiles",f=`
   <div id="map" class="map"></div>
 `,v=`
   .map {

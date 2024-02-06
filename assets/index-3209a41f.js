@@ -1,4 +1,4 @@
-import{T as w,G as V}from"./WebGLTile-07257468.js";import{M as x,V as C}from"./Layer-5200258f.js";import{_ as I,i as P,o as S,c as T,b as e,t as s,g as l,d as j,F as z,j as F,p as N,k as D}from"./index-b344a3c5.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const E="Change Tile Layer Style",G=`
+import{T as w,G as V}from"./WebGLTile-51dd7505.js";import{M as x,V as C}from"./Layer-5200258f.js";import{_ as I,i as P,o as S,c as T,b as e,t as s,g as l,d as j,F as z,j as F,p as N,k as D}from"./index-7205b445.js";import"./TileProperty-ab86017d.js";import"./_commonjsHelpers-39b5b250.js";import"./BaseTile-53865aab.js";const E="Change Tile Layer Style",G=`
   <div id="map" class="map"></div>
   Set the layer style
   <select id="style">
