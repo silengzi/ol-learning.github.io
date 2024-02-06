@@ -23,6 +23,7 @@ const CustomAnimation = defineAsyncComponent(() => import('@/views/examples/Cust
 const CustomCanvasTiles = defineAsyncComponent(() => import('@/views/examples/Custom Canvas Tiles/index.vue'))
 const CustomCircleRender = defineAsyncComponent(() => import('@/views/examples/Custom Circle Render/index.vue'))
 const CustomControls = defineAsyncComponent(() => import('@/views/examples/Custom Controls/index.vue'))
+const CustomDragAndDropKMZ = defineAsyncComponent(() => import('@/views/examples/Custom Drag-and-Drop (KMZ)/index.vue'))
 
 const routes = [
   {
@@ -139,6 +140,11 @@ const routes = [
     path: 'Custom-Controls',
     name: 'CustomControls',
     component: CustomControls
+  },
+  {
+    path: 'Custom-Drag-And-Drop-KMZ',
+    name: 'CustomDragAndDropKMZ',
+    component: CustomDragAndDropKMZ
   },
 ]
 
