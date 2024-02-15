@@ -1,0 +1,1 @@
+function a(r,s,e){const t=e!==void 0?r.toFixed(e):""+r;let n=t.indexOf(".");return n=n===-1?t.length:n,n>s?t:new Array(1+s-n).join("0")+t}function c(r,s){const e=(""+r).split("."),t=(""+s).split(".");for(let n=0;n<Math.max(e.length,t.length);n++){const o=parseInt(e[n]||"0",10),i=parseInt(t[n]||"0",10);if(o>i)return 1;if(i>o)return-1}return 0}export{c,a as p};
