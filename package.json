@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "devIP": "vite --host 192.168.124.7",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "ol": "^8.1.0",
+    "ol-mapbox-style": "^12.0.0",
     "proj4": "^2.9.2",
     "vue": "^3.3.4",
     "vue-router": "4"

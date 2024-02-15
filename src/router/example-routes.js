@@ -29,6 +29,13 @@ const CustomHitDetectionRender = defineAsyncComponent(() => import('@/views/exam
 const CustomInteractions = defineAsyncComponent(() => import('@/views/examples/Custom Interactions/index.vue'))
 const CustomMapElement = defineAsyncComponent(() => import('@/views/examples/Custom map element/index.vue'))
 const CustomOverviewMap = defineAsyncComponent(() => import('@/views/examples/Custom Overview Map/index.vue'))
+const CustomPolygonStyles = defineAsyncComponent(() => import('@/views/examples/Custom Polygon Styles/index.vue'))
+const CustomTiledWMS = defineAsyncComponent(() => import('@/views/examples/Custom Tiled WMS/index.vue'))
+const CustomTooltips = defineAsyncComponent(() => import('@/views/examples/Custom Tooltips/index.vue'))
+const D3Integration = defineAsyncComponent(() => import('@/views/examples/d3 Integration/index.vue'))
+const DataTiles = defineAsyncComponent(() => import('@/views/examples/Data Tiles/index.vue'))
+const DeclutterGroup = defineAsyncComponent(() => import('@/views/examples/Declutter Group/index.vue'))
+const DeviceOrientation = defineAsyncComponent(() => import('@/views/examples/Device Orientation/index.vue'))
 
 const routes = [
   {
@@ -175,6 +182,41 @@ const routes = [
     path: 'Custom-Overview-Map',
     name: 'CustomOverviewMap',
     component: CustomOverviewMap
+  },
+  {
+    path: 'Custom-Polygon-Styles',
+    name: 'CustomPolygonStyles',
+    component: CustomPolygonStyles
+  },
+  {
+    path: 'Custom-Tiled-WMS',
+    name: 'CustomTiledWMS',
+    component: CustomTiledWMS
+  },
+  {
+    path: 'Custom-Tooltips',
+    name: 'CustomTooltips',
+    component: CustomTooltips
+  },
+  {
+    path: 'D3-Integration',
+    name: 'D3Integration',
+    component: D3Integration
+  },
+  {
+    path: 'Data-Tiles',
+    name: 'DataTiles',
+    component: DataTiles
+  },
+  {
+    path: 'Declutter-Group',
+    name: 'DeclutterGroup',
+    component: DeclutterGroup
+  },
+  {
+    path: 'Device-Orientation',
+    name: 'DeviceOrientation',
+    component: DeviceOrientation
   },
 ]
 
