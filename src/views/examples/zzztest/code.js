@@ -1,4 +1,4 @@
-const title = 'Accessible Map'
+const title = 'AccessibleMap'
 
 const html_str = `
   <a class="skiplink" href="#map">Go to map</a>
