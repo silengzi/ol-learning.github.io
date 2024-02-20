@@ -37,6 +37,7 @@ const DataTiles = defineAsyncComponent(() => import('@/views/examples/Data Tiles
 const DeclutterGroup = defineAsyncComponent(() => import('@/views/examples/Declutter Group/index.vue'))
 const DeviceOrientation = defineAsyncComponent(() => import('@/views/examples/Device Orientation/index.vue'))
 const DoubleClickDragAndZoom = defineAsyncComponent(() => import('@/views/examples/Double click, Drag and Zoom/index.vue'))
+const DragAndDrop = defineAsyncComponent(() => import('@/views/examples/Drag-and-Drop/index.vue'))
 
 const routes = [
   {
@@ -223,6 +224,11 @@ const routes = [
     path: 'Double-Click-Drag-And-Zoom',
     name: 'DoubleClickDragAndZoom',
     component: DoubleClickDragAndZoom
+  },
+  {
+    path: 'Drag-And-Drop',
+    name: 'DragAndDrop',
+    component: DragAndDrop
   },
 ]
 
