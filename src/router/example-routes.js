@@ -38,6 +38,11 @@ const DeclutterGroup = defineAsyncComponent(() => import('@/views/examples/Declu
 const DeviceOrientation = defineAsyncComponent(() => import('@/views/examples/Device Orientation/index.vue'))
 const DoubleClickDragAndZoom = defineAsyncComponent(() => import('@/views/examples/Double click, Drag and Zoom/index.vue'))
 const DragAndDrop = defineAsyncComponent(() => import('@/views/examples/Drag-and-Drop/index.vue'))
+const DragAndDropImageVector = defineAsyncComponent(() => import('@/views/examples/Drag-and-Drop Image Vector/index.vue'))
+const DragRotateAndZoom = defineAsyncComponent(() => import('@/views/examples/Drag, Rotate, and Zoom/index.vue'))
+const DrawAndModifyFeatures = defineAsyncComponent(() => import('@/views/examples/Draw and Modify Features/index.vue'))
+const DrawAndModifyGeodesicCircles = defineAsyncComponent(() => import('@/views/examples/Draw and Modify Geodesic Circles/index.vue'))
+const DrawFeatures = defineAsyncComponent(() => import('@/views/examples/Draw Features/index.vue'))
 
 const routes = [
   {
@@ -229,6 +234,31 @@ const routes = [
     path: 'Drag-And-Drop',
     name: 'DragAndDrop',
     component: DragAndDrop
+  },
+  {
+    path: 'Drag-And-Drop-Image-Vector',
+    name: 'DragAndDropImageVector',
+    component: DragAndDropImageVector
+  },
+  {
+    path: 'Drag-Rotate-And-Zoom',
+    name: 'DragRotateAndZoom',
+    component: DragRotateAndZoom
+  },
+  {
+    path: 'Draw-And-Modify-Features',
+    name: 'DrawAndModifyFeatures',
+    component: DrawAndModifyFeatures
+  },
+  {
+    path: 'Draw-And-Modify-Geodesic-Circles',
+    name: 'DrawAndModifyGeodesicCircles',
+    component: DrawAndModifyGeodesicCircles
+  },
+  {
+    path: 'Draw-Features',
+    name: 'DrawFeatures',
+    component: DrawFeatures
   },
 ]
 
