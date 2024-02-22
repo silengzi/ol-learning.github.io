@@ -43,6 +43,11 @@ const DragRotateAndZoom = defineAsyncComponent(() => import('@/views/examples/Dr
 const DrawAndModifyFeatures = defineAsyncComponent(() => import('@/views/examples/Draw and Modify Features/index.vue'))
 const DrawAndModifyGeodesicCircles = defineAsyncComponent(() => import('@/views/examples/Draw and Modify Geodesic Circles/index.vue'))
 const DrawFeatures = defineAsyncComponent(() => import('@/views/examples/Draw Features/index.vue'))
+const DrawLinesRenderedWithWebGL = defineAsyncComponent(() => import('@/views/examples/Draw lines rendered with WebGL/index.vue'))
+const DrawShapes = defineAsyncComponent(() => import('@/views/examples/Draw Shapes/index.vue'))
+const DrawingFeaturesStyle = defineAsyncComponent(() => import('@/views/examples/Drawing Features Style/index.vue'))
+const DynamicClusters = defineAsyncComponent(() => import('@/views/examples/Dynamic clusters/index.vue'))
+const DynamicData = defineAsyncComponent(() => import('@/views/examples/Dynamic Data/index.vue'))
 
 const routes = [
   {
@@ -259,6 +264,31 @@ const routes = [
     path: 'Draw-Features',
     name: 'DrawFeatures',
     component: DrawFeatures
+  },
+  {
+    path: 'Draw-Lines-Rendered-With-WebGL',
+    name: 'DrawLinesRenderedWithWebGL',
+    component: DrawLinesRenderedWithWebGL
+  },
+  {
+    path: 'Draw-Shapes',
+    name: 'DrawShapes',
+    component: DrawShapes
+  },
+  {
+    path: 'Drawing-Features-Style',
+    name: 'DrawingFeaturesStyle',
+    component: DrawingFeaturesStyle
+  },
+  {
+    path: 'Dynamic-Clusters',
+    name: 'DynamicClusters',
+    component: DynamicClusters
+  },
+  {
+    path: 'Dynamic-Data',
+    name: 'DynamicData',
+    component: DynamicData
   },
 ]
 
