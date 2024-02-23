@@ -81,6 +81,7 @@ onMounted(() => {
     const b = 200 * (y - z);
 
     const c = Math.sqrt(a * a + b * b);
+    //  反正切值
     let h = Math.atan2(b, a);
     if (h < 0) {
       h += twoPi;

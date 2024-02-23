@@ -31,6 +31,7 @@ onMounted(() => {
       new TileLayer({
         source: new OSM(),
       }),
+      //  TileDebug 是一个OpenLayers提供的工具，用于显示地图瓦片的边界框和网格，以便调试地图显示问题
       new TileLayer({
         source: new TileDebug(),
       }),

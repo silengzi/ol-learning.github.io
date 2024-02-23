@@ -4,6 +4,7 @@
   <div id="map" class="map"></div>
 
   <p>Example of using <code>fromEPSGCode()</code> to enable a COG to be rendered over another layer in a different projection.</p>
+  <p>使用fromEPSGCode()使COG能够在不同投影中的另一层上渲染的示例</p>
 
   <h5 class="source-heading">html</h5>
   <pre><code class="language-html">{{"  " + html_str.trim()}}</code></pre>
@@ -46,6 +47,7 @@ onMounted(() => {
     sources: [
       {
         url: 'https://mikenunn.net/data/MiniScale_(std_with_grid)_R23.tif',
+        //  表示像素值为 0 的像素被视为无效或无数据的像素
         nodata: 0,
       },
     ],
@@ -65,8 +67,10 @@ onMounted(() => {
           url:
             'https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=' + key,
           maxZoom: 20,
+          //  确保浏览器在加载图像资源时不会受到 CORS 限制，适用于同源图像或已配置为允许跨域共享的图像
           crossOrigin: '',
         }),
+        //  增加图像的亮度   曝光度
         style: {exposure: 0.2},
       }),
       new TileLayer({

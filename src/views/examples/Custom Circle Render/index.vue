@@ -35,15 +35,19 @@ onMounted(() => {
   circleFeature.setStyle(
     new Style({
       renderer(coordinates, state) {
+        //  表示圆形的中心点和边界点
         const [[x, y], [x1, y1]] = coordinates;
         const ctx = state.context;
         const dx = x1 - x;
         const dy = y1 - y;
         const radius = Math.sqrt(dx * dx + dy * dy);
 
+        //  内径
         const innerRadius = 0;
+        //  外径
         const outerRadius = radius * 1.4;
 
+        //  创建了一个径向渐变
         const gradient = ctx.createRadialGradient(
           x,
           y,

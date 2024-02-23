@@ -5,6 +5,7 @@
   Set the layer style
   <select id="style">
     <option value="trueColor">True Color</option>
+    <!-- 假彩色 -->
     <option value="falseColor">False Color</option>
     <option value="ndvi">NDVI</option>
     <option value="ndviPalettePlasma">NDVI w/ palette 1</option>
@@ -12,6 +13,7 @@
   </select>
 
   <p>When you want to change the style of a WebGL tile layer based on some change in your application state, you should use the <code>layer.updateStyleVariables()</code> method. A layer can be efficiently rendered even if style variables are changed on every render frame. In cases where you need to completely replace the style of a layer, you can call the <code>layer.setStyle()</code> method. This method should not be called in response to frequent user events (e.g. mouse movement, dragging a slider, etc.).</p>
+  <p>当您希望根据应用程序状态的某些更改来更改WebGL平铺层的样式时，应使用layer.updateStyleVariables()方法。即使在每个渲染帧上更改了样式变量，也可以有效地渲染层。在需要完全替换层的样式的情况下，可以调用layer.setStyle()方法。不应在频繁的用户事件（例如，鼠标移动、拖动滑块等）时调用此方法</p>
 
   <h5 class="source-heading">html</h5>
   <pre><code class="language-html">{{"  " + html_str.trim()}}</code></pre>
@@ -34,8 +36,10 @@ import View from 'ol/View.js';
 
 onMounted(() => {
 
+  // 归一化处理
   const max = 3000;
   function normalize(value) {
+    //  value/max
     return ['/', value, max];
   }
 
@@ -46,6 +50,7 @@ onMounted(() => {
 
   const trueColor = {
     color: ['array', red, green, blue, 1],
+    //  图像的亮度和对比度调整
     gamma: 1.1,
   };
 
@@ -137,6 +142,7 @@ onMounted(() => {
   const layer = new TileLayer({
     style: trueColor,
     source: new GeoTIFF({
+      //  不进行归一化处理
       normalize: false,
       sources: [
         {

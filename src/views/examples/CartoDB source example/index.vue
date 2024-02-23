@@ -40,6 +40,7 @@ import {CartoDB, OSM} from 'ol/source.js';
 
 onMounted(() => {
 
+  //  该图层使用 CartoDB 类型，并且使用指定的 CartoCSS 样式来渲染地图
   const mapConfig = {
     'layers': [
       {
@@ -60,6 +61,7 @@ onMounted(() => {
   setArea(areaSelect.value);
 
   const cartoDBSource = new CartoDB({
+    //  账户
     account: 'documentation',
     config: mapConfig,
   });

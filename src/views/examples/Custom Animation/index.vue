@@ -65,6 +65,7 @@ onMounted(() => {
   }
 
   const duration = 3000;
+  //  在要素上添加闪烁效果
   function flash(feature) {
     const start = Date.now();
     const flashGeom = feature.getGeometry().clone();

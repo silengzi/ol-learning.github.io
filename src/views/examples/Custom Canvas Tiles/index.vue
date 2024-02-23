@@ -41,7 +41,7 @@ onMounted(() => {
     text: new Text({
       font: '12px Calibri,sans-serif',
       fill: new Fill({
-        color: '#000',
+        color: '#fff',
       }),
       stroke: new Stroke({
         color: '#fff',
@@ -51,6 +51,7 @@ onMounted(() => {
   });
 
   const vtLayer = new VectorTileLayer({
+    //  标注去重
     declutter: true,
     source: new VectorTileSource({
       maxZoom: 15,

@@ -1,4 +1,4 @@
-const title = 'Attributions'
+const title = 'Color Manipulation'
 
 const html_str = `
   <div id="map" class="map"></div>
