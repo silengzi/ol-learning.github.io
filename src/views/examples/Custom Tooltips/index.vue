@@ -18,7 +18,7 @@
 <script setup>
 import { onMounted } from "vue";
 import { title, html_str, css_str, js_str, package_str } from "./code"
-import "./utils"
+import "../../../assets/js/bootstrap"
 
 import Map from 'ol/Map.js';
 import OSM from 'ol/source/OSM.js';

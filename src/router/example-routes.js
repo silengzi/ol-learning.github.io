@@ -48,6 +48,10 @@ const DrawShapes = defineAsyncComponent(() => import('@/views/examples/Draw Shap
 const DrawingFeaturesStyle = defineAsyncComponent(() => import('@/views/examples/Drawing Features Style/index.vue'))
 const DynamicClusters = defineAsyncComponent(() => import('@/views/examples/Dynamic clusters/index.vue'))
 const DynamicData = defineAsyncComponent(() => import('@/views/examples/Dynamic Data/index.vue'))
+const EarthquakeClusters = defineAsyncComponent(() => import('@/views/examples/Earthquake Clusters/index.vue'))
+const EarthquakesHeatmap = defineAsyncComponent(() => import('@/views/examples/Earthquakes Heatmap/index.vue'))
+const EarthquakesInKML = defineAsyncComponent(() => import('@/views/examples/Earthquakes in KML/index.vue'))
+const EarthquakesWithCustomSymbols = defineAsyncComponent(() => import('@/views/examples/Earthquakes with custom symbols/index.vue'))
 
 const routes = [
   {
@@ -289,6 +293,26 @@ const routes = [
     path: 'Dynamic-Data',
     name: 'DynamicData',
     component: DynamicData
+  },
+  {
+    path: 'Earthquake-Clusters',
+    name: 'EarthquakeClusters',
+    component: EarthquakeClusters
+  },
+  {
+    path: 'Earthquakes-Heatmap',
+    name: 'EarthquakesHeatmap',
+    component: EarthquakesHeatmap
+  },
+  {
+    path: 'Earthquakes-In-KML',
+    name: 'EarthquakesInKML',
+    component: EarthquakesInKML
+  },
+  {
+    path: 'Earthquakes-With-Custom-Symbols',
+    name: 'EarthquakesWithCustomSymbols',
+    component: EarthquakesWithCustomSymbols
   },
 ]
 
