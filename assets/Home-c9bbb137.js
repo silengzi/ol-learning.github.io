@@ -1,0 +1,1 @@
+import{_ as o,o as t,c,F as n,b as e}from"./index-eb0ea342.js";const s={},a=e("div",null,"首页",-1),r=e("div",null,"暂未开发，敬请等待~",-1);function _(l,d){return t(),c(n,null,[a,r],64)}const f=o(s,[["render",_]]);export{f as default};
