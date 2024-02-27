@@ -52,6 +52,9 @@ const EarthquakeClusters = defineAsyncComponent(() => import('@/views/examples/E
 const EarthquakesHeatmap = defineAsyncComponent(() => import('@/views/examples/Earthquakes Heatmap/index.vue'))
 const EarthquakesInKML = defineAsyncComponent(() => import('@/views/examples/Earthquakes in KML/index.vue'))
 const EarthquakesWithCustomSymbols = defineAsyncComponent(() => import('@/views/examples/Earthquakes with custom symbols/index.vue'))
+const EditableArcGISRESTFeatureService = defineAsyncComponent(() => import('@/views/examples/Editable ArcGIS REST Feature Service/index.vue'))
+const EPSG4326 = defineAsyncComponent(() => import('@/views/examples/EPSG4326/index.vue'))
+const ExportPDFExample = defineAsyncComponent(() => import('@/views/examples/Export PDF example/index.vue'))
 
 const routes = [
   {
@@ -313,6 +316,21 @@ const routes = [
     path: 'Earthquakes-With-Custom-Symbols',
     name: 'EarthquakesWithCustomSymbols',
     component: EarthquakesWithCustomSymbols
+  },
+  {
+    path: 'Editable-ArcGIS-REST-Feature-Service',
+    name: 'EditableArcGISRESTFeatureService',
+    component: EditableArcGISRESTFeatureService
+  },
+  {
+    path: 'EPSG-4326',
+    name: 'EPSG4326',
+    component: EPSG4326
+  },
+  {
+    path: 'Export-PDF-Example',
+    name: 'ExportPDFExample',
+    component: ExportPDFExample
   },
 ]
 
