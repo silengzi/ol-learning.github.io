@@ -55,6 +55,9 @@ const EarthquakesWithCustomSymbols = defineAsyncComponent(() => import('@/views/
 const EditableArcGISRESTFeatureService = defineAsyncComponent(() => import('@/views/examples/Editable ArcGIS REST Feature Service/index.vue'))
 const EPSG4326 = defineAsyncComponent(() => import('@/views/examples/EPSG4326/index.vue'))
 const ExportPDFExample = defineAsyncComponent(() => import('@/views/examples/Export PDF example/index.vue'))
+const ExtentInteraction = defineAsyncComponent(() => import('@/views/examples/Extent Interaction/index.vue'))
+const ExternalMap = defineAsyncComponent(() => import('@/views/examples/External map/index.vue'))
+const FilteringFeaturesWithWebGL = defineAsyncComponent(() => import('@/views/examples/Filtering features with WebGL/index.vue'))
 
 const routes = [
   {
@@ -331,6 +334,21 @@ const routes = [
     path: 'Export-PDF-Example',
     name: 'ExportPDFExample',
     component: ExportPDFExample
+  },
+  {
+    path: 'Extent-Interaction',
+    name: 'ExtentInteraction',
+    component: ExtentInteraction
+  },
+  {
+    path: 'External-Map',
+    name: 'ExternalMap',
+    component: ExternalMap
+  },
+  {
+    path: 'Filtering-Features-With-WebGL',
+    name: 'FilteringFeaturesWithWebGL',
+    component: FilteringFeaturesWithWebGL
   },
 ]
 
