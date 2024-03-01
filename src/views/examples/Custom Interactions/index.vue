@@ -169,6 +169,7 @@ onMounted(() => {
           'icon-src': 'https://openlayers.org/en/latest/examples/data/icon.png',
           'icon-opacity': 0.95,
           'icon-anchor': [0.5, 46],
+          //  'fraction' 表示图标定位点的水平单位是相对于图标自身宽度的比例
           'icon-anchor-x-units': 'fraction',
           'icon-anchor-y-units': 'pixels',
           'stroke-width': 3,

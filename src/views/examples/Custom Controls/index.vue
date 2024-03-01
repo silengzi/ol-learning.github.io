@@ -45,11 +45,15 @@ onMounted(() => {
       element.className = 'rotate-north ol-unselectable ol-control';
       element.appendChild(button);
 
+      // 调用父类的构造函数，传递配置对象
+      // target 属性设置为传入的目标元素。
       super({
         element: element,
         target: options.target,
       });
 
+      // 通过 bind(this) 来确保在执行时函数内部的 this 关键字指向当前的 RotateNorthControl 实例
+      // 因为在事件监听器中，函数内部的 this 默认指向触发事件的 DOM 元素，而不是 RotateNorthControl 实例
       button.addEventListener('click', this.handleRotateNorth.bind(this), false);
     }
 

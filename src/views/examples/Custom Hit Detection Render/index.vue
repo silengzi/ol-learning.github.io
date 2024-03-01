@@ -73,7 +73,7 @@ onMounted(() => {
           y,
           outerRadius
         );
-        gradient.addColorStop(0, 'rgba(255,0,0,0)');
+        gradient.addColorStop(0.1, 'rgba(255,0,0,0)');
         gradient.addColorStop(0.6, 'rgba(255,0,0,0.2)');
         gradient.addColorStop(1, 'rgba(255,0,0,0.8)');
         ctx.beginPath();

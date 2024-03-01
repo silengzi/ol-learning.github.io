@@ -62,7 +62,7 @@ onMounted(() => {
         const coordinates = feature.getGeometry().getCoordinates()[0];
         return new MultiPoint(coordinates);
       },
-    }),
+    }), 
   ];
 
   const geojsonObject = {

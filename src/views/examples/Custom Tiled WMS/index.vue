@@ -45,6 +45,7 @@ onMounted(() => {
     extent: [485869.5728, 76443.1884, 837076.5648, 299941.7864],
     units: 'm',
   });
+  // 将投影对象添加到地图库中
   addProjection(projection);
 
   // We also declare EPSG:21781/EPSG:4326 transform functions. These functions
@@ -123,10 +124,12 @@ onMounted(() => {
   // Convert WGS lat/long (° dec) to CH y
   function WGStoCHy(lat, lng) {
     // Converts degrees dec to sex
+    // 将度数转换为度分秒格式
     lat = DECtoSEX(lat);
     lng = DECtoSEX(lng);
 
     // Converts degrees to seconds (sex)
+    // 度数转换为秒
     lat = DEGtoSEC(lat);
     lng = DEGtoSEC(lng);
 
